@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Semantic HTML Layout</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header { background: #1a1a1a; color: #fff; padding: 1.5rem; text-align: center; }
+        nav { background: #333; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; }
+        nav li { margin: 0 15px; }
+        nav a { color: #fff; text-decoration: none; padding: 10px; display: block; font-weight: bold; }
+        nav a:hover { color: #00bcd4; }
+        main { padding: 20px; display: flex; gap: 20px; max-width: 1200px; margin: auto; }
+        section { flex: 3; }
+        aside { flex: 1; background: #f4f4f4; padding: 15px; border-radius: 5px; }
+        footer { background: #1a1a1a; color: #fff; text-align: center; padding: 1rem; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mera Web Portal</h1>
+        <p>Advanced HTML5 aur Semantic Structure</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <section>
+            <article>
+                <h2>Article Title: Semantic Tags ke Fayde</h2>
+                <p>Semantic tags jaise ki <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, aur <code>&lt;main&gt;</code> browser aur search engines ko batate hain ki page ke kis hisse mein kya content rakha hai.</p>
+            </article>
+        </section>
+        
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Yahan par quick links, categories ya advertisements dikhaye jate hain.</p>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
